@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+*.db
+Pong C++/Pong C++/.vs/Pong C++/v16/Browse.VC.db-wal
+Pong C++/Pong C++/.vs/Pong C++/v16/Browse.VC.opendb
