@@ -1,9 +1,0 @@
-﻿Main.obj : error LNK2019: símbolo externo _glfwInit sin resolver al que se hace referencia en la función _main
-Main.obj : error LNK2019: símbolo externo _glfwTerminate sin resolver al que se hace referencia en la función _main
-Main.obj : error LNK2019: símbolo externo _glfwCreateWindow sin resolver al que se hace referencia en la función _main
-Main.obj : error LNK2019: símbolo externo _glfwWindowShouldClose sin resolver al que se hace referencia en la función _main
-Main.obj : error LNK2019: símbolo externo _glfwPollEvents sin resolver al que se hace referencia en la función _main
-Main.obj : error LNK2019: símbolo externo _glfwMakeContextCurrent sin resolver al que se hace referencia en la función _main
-Main.obj : error LNK2019: símbolo externo _glfwSwapBuffers sin resolver al que se hace referencia en la función _main
-C:\Users\49427234\Desktop\Github Projects\Pong-CPP\Pong C++\Pong C++\Dependencies\GLFW\lib-vc2019\glfw3.lib : warning LNK4272: el tipo de máquina de biblioteca 'x64' está en conflicto con el tipo de máquina de destino 'x86'
-C:\Users\49427234\Desktop\Github Projects\Pong-CPP\Pong C++\Pong C++\Debug\Pong C++.exe : fatal error LNK1120: 7 externos sin resolver
