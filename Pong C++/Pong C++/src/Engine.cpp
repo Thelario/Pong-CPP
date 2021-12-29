@@ -73,6 +73,10 @@ void Engine::Input()
 void Engine::Logic()
 {
     // Move the ball
+    ball.Move();
+    ball.CheckLowerLimit();
+    ball.CheckUpperLimit();
+    
     // Bounce the ball
     // Move the enemy according to ball
     // Move player according to input
