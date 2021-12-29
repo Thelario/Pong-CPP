@@ -1,6 +1,3 @@
 ﻿  Player.cpp
-C:\Users\49427234\Desktop\Github Projects\Pong-CPP\Pong C++\Pong C++\src\Player.cpp(20,28): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\49427234\Desktop\Github Projects\Pong-CPP\Pong C++\Pong C++\src\Player.cpp(21,27): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\49427234\Desktop\Github Projects\Pong-CPP\Pong C++\Pong C++\src\Player.cpp(22,28): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\49427234\Desktop\Github Projects\Pong-CPP\Pong C++\Pong C++\src\Player.cpp(23,29): warning C4244: 'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\49427234\Desktop\Github Projects\Pong-CPP\Pong C++\Pong C++\src\Player.cpp(20,18): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
   Pong C++.vcxproj -> C:\Users\49427234\Desktop\Github Projects\Pong-CPP\Pong C++\x64\Debug\Pong C++.exe
