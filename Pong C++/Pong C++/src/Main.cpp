@@ -1,18 +1,18 @@
-#include "Engine.h"
+#include "Game.h"
 
 int main(void)
 {
-    Engine engine;
+    Game game;
 
-    GLFWwindow* window = engine.Start(800, 800, "Pong");
+    GLFWwindow* window = game.Start(800, 800, "Pong");
     if (window == nullptr)
     {
-        engine.Close();
+        game.Close();
         return -1;
     }
 
-    engine.Loop();
+    game.Loop();
 
-    engine.Close();
+    game.Close();
     return 0;
 }
