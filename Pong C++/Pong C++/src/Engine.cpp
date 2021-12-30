@@ -67,21 +67,21 @@ void Engine::Input()
     player.Move(yPos);
      
     // Check for mouse click (to restart the game)
-    // Check for scape button, to close the game
 }
 
 void Engine::Logic()
 {
-    // Move the ball
     ball.Move();
-    ball.CheckLowerLimit();
-    ball.CheckUpperLimit();
+
+    enemy.Move(ball.yPos);
+
+    ball.CheckLimits();
     
-    // Bounce the ball
-    // Move the enemy according to ball
-    // Move player according to input
-    // Ball bounces
-    // Ball goes outside
+    if (player.CheckBallCollision(ball.xPos, ball.yPos))
+        ball.ChangeXSpeed();
+
+    if (enemy.CheckBallCollision(ball.xPos, ball.yPos))
+        ball.ChangeXSpeed();
 }
 
 void Engine::Draw()

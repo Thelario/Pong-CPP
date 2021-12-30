@@ -1,4 +1,6 @@
 ﻿  Ball.cpp
-C:\Users\49427234\Desktop\Github Projects\Pong-CPP\Pong C++\Pong C++\src\Ball.cpp(17,19): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\49427234\Desktop\Github Projects\Pong-CPP\Pong C++\Pong C++\src\Ball.cpp(18,19): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\49427234\Desktop\Github Projects\Pong-CPP\Pong C++\Pong C++\src\Ball.cpp(14,49): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\49427234\Desktop\Github Projects\Pong-CPP\Pong C++\Pong C++\src\Ball.cpp(15,49): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\49427234\Desktop\Github Projects\Pong-CPP\Pong C++\Pong C++\src\Ball.cpp(33,49): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\49427234\Desktop\Github Projects\Pong-CPP\Pong C++\Pong C++\src\Ball.cpp(34,49): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
   Pong C++.vcxproj -> C:\Users\49427234\Desktop\Github Projects\Pong-CPP\Pong C++\x64\Debug\Pong C++.exe

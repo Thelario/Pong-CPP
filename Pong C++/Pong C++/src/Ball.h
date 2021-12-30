@@ -4,20 +4,23 @@
 
 class Ball
 {
-private:
+public:
 	double xPos;
 	double yPos;
-
+private:
 	double xPosInit;
 	double yPosInit;
 
 	double xSpeed;
 	double ySpeed;
+
+	float xCenter;
+	float yCenter;
 public:
 	Ball();
 
 	void Draw();
 	void Move();
-	void CheckUpperLimit();
-	void CheckLowerLimit();
+	void CheckLimits();
+	void ChangeXSpeed();
 };

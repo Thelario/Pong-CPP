@@ -6,12 +6,15 @@
 class Player
 {
 private:
-	double yPos;
-	double xPos;
+	int yPos;
+	int xPos;
+	float height;
+	float width;
+	float yCenter;
 public:
 	Player();
 
-	void Update();
 	void Draw();
 	void Move(double yPos);
+	bool CheckBallCollision(double ballX, double ballY);
 };
