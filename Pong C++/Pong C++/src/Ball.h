@@ -22,5 +22,6 @@ public:
 	void Draw();
 	void Move();
 	void CheckLimits();
+	bool CheckGameEnded();
 	void ChangeXSpeed();
 };

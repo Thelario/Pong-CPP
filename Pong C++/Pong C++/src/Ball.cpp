@@ -50,3 +50,11 @@ void Ball::ChangeXSpeed()
 {
     xSpeed *= -1.0f;
 }
+
+bool Ball::CheckGameEnded()
+{
+    if (xPos >= 800 || xPos <= 0)
+        return true;
+
+    return false;
+}

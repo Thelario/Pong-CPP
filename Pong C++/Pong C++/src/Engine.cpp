@@ -76,6 +76,12 @@ void Engine::Logic()
     enemy.Move(ball.yPos);
 
     ball.CheckLimits();
+
+    if (ball.CheckGameEnded())
+    {
+        ball = Ball();
+        return;
+    }
     
     if (player.CheckBallCollision(ball.xPos, ball.yPos))
         ball.ChangeXSpeed();
